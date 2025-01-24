@@ -30,6 +30,6 @@ jobs:
       uses: dorny/test-reporter@v1
       if: always()  
       with:
-        name: Junit            # Name of the check run which will be created
-        path: reports/**.xml    # Path to test results
-        reporter: jest-junit        # Format of test results
+        name: Junit            
+        path: reports/jest-*.xml    
+        reporter: jest-junit        
