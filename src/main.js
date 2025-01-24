@@ -4,15 +4,15 @@ new App({
   target: document.body,
   props: {
     // What's your name?
-    name: "James Butler",
+    name: "Lukas Bernwald",
     // In the following fiels you can either give a single string,
     // or an array of bullet points
 
     // What do you associate with the term 'CI/CD'?
-    associations: ["Ehm, what?"],
+    associations: ["Automated Testing", "Code Analysis", "Security Checks", "License Checks"],
     // Which CI/CD tools do you use in your project?
-    tools: "Jenkins, maybe?",
+    tools: ["GitHub Actions", "Terraform"],
     // What do you want to learn in this workshop?
-    expectations: ["what you are talking about"],
+    expectations: ["Tips how to test infrastructure", "Jenkins hands-on expereince"],
   },
 });
