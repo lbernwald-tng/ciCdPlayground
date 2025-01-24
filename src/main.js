@@ -9,7 +9,7 @@ new App({
     // or an array of bullet points
 
     // What do you associate with the term 'CI/CD'?
-    associations: ["Automated Testing", "Code Analysis", "Security Checks", "License Checks"],
+    associations: ["Automated Tests", "Code Analysis", "Security Checks", "License Checks"],
     // Which CI/CD tools do you use in your project?
     tools: ["GitHub Actions", "Terraform"],
     // What do you want to learn in this workshop?
